@@ -4,7 +4,9 @@ import com.food.ordering.system.order.service.application.response.fail.FailData
 import com.food.ordering.system.order.service.application.response.fail.FailResponse;
 import com.food.ordering.system.order.service.application.response.success.SuccessDataResponse;
 import com.food.ordering.system.order.service.application.response.success.SuccessResponse;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ResponseFactory<D> implements AbstractResponseFactory<D>{
     @Override
     public SuccessResponse factorySuccessResponse(String message) {

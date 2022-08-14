@@ -14,4 +14,6 @@ public class SuccessResponse extends Response {
     public SuccessResponse(String message,String redirect) {
         super(true,message,redirect);
     }
+
+
 }
