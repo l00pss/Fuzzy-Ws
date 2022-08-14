@@ -4,11 +4,11 @@ import com.food.ordering.system.domain.exception.DomainException;
 
 public class OrderDomainException extends DomainException {
 
-    public OrderDomainException(String message) {
-        super(message);
+    public OrderDomainException(String code) {
+        super(code);
     }
 
-    public OrderDomainException(String message, Throwable cause) {
-        super(message, cause);
+    public OrderDomainException(String code, Throwable cause) {
+        super(code, cause);
     }
 }
