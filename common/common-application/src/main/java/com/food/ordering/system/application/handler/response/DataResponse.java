@@ -1,4 +1,4 @@
-package com.food.ordering.system.order.service.application.response;
+package com.food.ordering.system.application.handler.response;
 
 public abstract class DataResponse<D> extends Response {
     private final D data;

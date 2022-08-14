@@ -1,6 +1,6 @@
-package com.food.ordering.system.order.service.application.response.fail;
+package com.food.ordering.system.application.handler.response.fail;
 
-import com.food.ordering.system.order.service.application.response.Response;
+import com.food.ordering.system.application.handler.response.Response;
 
 public class FailResponse extends Response {
     public FailResponse() {

@@ -1,4 +1,4 @@
-package com.food.ordering.system.domain.message;
+package com.food.ordering.system.application.handler.message;
 
 import org.springframework.stereotype.Component;
 
@@ -7,7 +7,7 @@ import java.util.Objects;
 @Component
 public class MessageProvider {
     public static String fail(){
-        return "";
+        return "Unexpected error!";
     }
 
     public static String ok(){

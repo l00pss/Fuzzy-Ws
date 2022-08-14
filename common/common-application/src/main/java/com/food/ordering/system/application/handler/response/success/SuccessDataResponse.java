@@ -1,6 +1,6 @@
-package com.food.ordering.system.order.service.application.response.success;
+package com.food.ordering.system.application.handler.response.success;
 
-import com.food.ordering.system.order.service.application.response.DataResponse;
+import com.food.ordering.system.application.handler.response.DataResponse;
 
 public class SuccessDataResponse <D> extends DataResponse<D> {
 
